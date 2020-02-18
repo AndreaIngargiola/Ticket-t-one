@@ -1,0 +1,706 @@
+@media  screen and (min-width: 768px) {
+
+  .logoHeader{
+    padding-bottom: 70px;
+  }
+
+  aside{
+    margin-left: 10%;
+  }
+
+    .carousel-inner .active,
+    .carousel-inner .active + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item {
+      display: block;
+    }
+  
+
+
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+      transition: none;
+    }
+  
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+  
+    .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -33.3333%;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+  
+ 
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+  
+  
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+  
+
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+    }
+
+  }
+
+  @media  screen  
+  and (max-width: 568px)
+ {
+
+    .allTicket {
+      flex-direction: column;
+    
+    }
+
+    .allTicketAcc {
+      flex-direction: column;
+    
+    }
+
+    .divTopTour{
+      width: 100%;
+    }
+
+    .barraRicerca{
+      margin-top: -60px;
+    }
+
+    .chooseSearch {
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 65px;
+    }
+
+
+}
+
+/*codice per il footer sotto*/
+* { margin:0; padding:0;}
+html, body { height: 100%; }
+
+fieldset{
+  border: none;
+}
+
+.barraRicerca2>label{
+  display: none;
+}
+
+legend {
+  display: none;
+  border: none;
+}
+
+body {
+	display: table;
+	width: 100%;
+}
+#contenitore {
+	height: 100%;
+}
+
+#idHeader {
+	display: table-row;
+	height:1px;
+} 
+
+#idFooter {
+	display: table-row;
+	height:1px;
+}
+/*fine*/
+
+
+ul#horlist li {
+    /*display: inline;*/
+    margin-right: 10px;
+}
+form#formody {
+    margin-left: 3%;
+}
+
+main#mainmy{
+    margin-left: 1%;
+}
+
+
+
+body > header{
+
+  color:  #320181;
+}
+
+
+
+
+#navbarCollapse{
+  width: 80%;
+}
+.logoutBtn{
+background: none;
+color: white;
+border: none;
+}
+
+.fakeBtn{
+background: none;
+color: white;
+border: none;
+}
+
+.logoutBtn:hover{
+cursor: pointer;
+}
+
+.barraRicerca2{
+width: 100%;
+}
+.barraRicerca3{
+width: 98%!important;
+}
+.barraRicerca{
+width: 100%;
+}
+
+
+@media screen and (min-width: 100px){
+.iconSet{
+  align-items: center;
+}
+
+
+}
+
+header{
+background-color: #320181;
+}
+
+.mainPage h2{
+text-align: center;
+}
+
+.accordionTitle{
+text-align: center;
+}
+
+#popArtistList{
+text-align: center;
+list-style-type:none;
+}
+
+.linBiglAcq:link{
+  text-decoration: none;
+  color: black;
+  }
+
+.evSold{
+padding: 2%;
+}
+
+.carousel-control-prev:hover{
+background-image: linear-gradient(to right, rgba(0,0,0, 100), rgba(255,255,255, 0) );
+}
+.carousel-control-next:hover{
+background-image: linear-gradient(to left, rgba(0,0,0, 100), rgba(255,255,255, 0) );
+}
+
+.selected:hover{
+background-color: #320181;
+color: white;
+border-color: white;
+}
+.b_accordion:hover{
+background-color: #320181;
+color: white;
+border-color: white;
+}
+.selected{
+background-color: #320181;
+color: white;
+border-color: white;
+}
+
+#accid{
+margin-top: 5%;
+margin-bottom: 5%;
+}
+#concertiCarousel{
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+#partiteCarousel{
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+#spettacoliCarousel{
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+#cinemaCarousel{
+margin-top: 2%;
+}
+
+.firstAcc{
+margin-bottom: 10%;
+}
+
+.secondAcc{
+margin-bottom: 10%;
+}
+
+.mainPage main a{
+color: black;
+text-decoration: none;
+}
+
+#h1my {
+  font-weight: bold;
+  /*color: #fff;*/
+  font-size: 45px;
+}
+
+
+
+
+
+.buttonO{
+  height: 250px;
+
+  border-style: none;
+  background: none;
+}
+
+.buttonO:hover{
+  cursor: pointer;
+  background-color: #c2a5f1
+}
+
+.buttonO2{
+
+  width: 100%;
+  border-style: none;
+  background: none;
+}
+
+.buttonOAside{
+  width: 80%;
+  margin: 2%;
+  border-style: none;
+  background: none;
+}
+
+.buttonOAside:hover{
+  cursor: pointer;
+  background-color: #c2a5f1
+}
+
+
+.buttonO2:hover{
+  cursor: pointer;
+  background-color: #c2a5f1;
+}
+
+.divBtO2{
+  margin-right: 10%;
+}
+
+
+
+.buttonV{
+
+  border-style: none;
+  background: none;
+}
+
+.buttonV:hover{
+  cursor: pointer;
+  background-color: #c2a5f1
+}
+
+#inEsaurimento .card-img-top{
+  height: auto;
+  width: 30%;
+  margin-top: 2.5%;
+}
+
+.cart-img{
+  height: auto;
+  width: 100%;
+}
+
+.piu{
+  margin-top: 15%;
+  margin-left: 15%;
+  width: 40%;
+
+}
+
+
+
+.noEvents {
+  padding-top: 4%;
+}
+
+
+.card-img-top-search{
+  height: auto;
+  width: 15%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.spacer5 {
+  margin-top: 2%;
+}
+
+.spacer4{
+  margin-top: 4px;
+}
+
+.spacer2 {
+  margin-top: 1%;
+}
+.spacer3 {
+  margin: 2%;
+}
+
+.imgTourS {
+  width: 80%;
+}
+
+.imgEventS{
+  width: 80%;
+}
+
+#provaPerc {
+  width: 200%;
+}
+
+.tableEventS th, td {  
+  border: 1px solid #c2a5f1;
+  text-align: left;
+}
+.divAsideAcq{
+  border: 4px solid #c2a5f1;
+}
+.divAcqBetw{
+  border-bottom: 1px solid #c2a5f1;
+
+}
+
+#descrizione{
+  height: auto;
+  width: 100%;
+}
+
+#messaggio{
+  height: auto;
+  width: 100%;
+}
+
+
+
+
+
+.tableEventS{
+  padding: 5%;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tableEventS th, td {
+  padding: 1%;
+}
+
+#buttonCarrello{
+  border-radius: 8px;
+  border: 1px solid #320181;
+  transition-duration: 0.4s;
+
+}
+
+
+.cartButton:hover{
+  cursor: pointer;
+  background-color: #320181;
+  color: white;
+}
+
+.buttonCart{
+  border-radius: 8px;
+  border: 1px solid #320181;
+  transition-duration: 0.4s;
+}
+
+.buttonCart2{
+  width: 80%;
+  border-radius: 8px;
+  border: 1px solid #320181;
+  transition-duration: 0.4s;
+}
+
+.buttonCart:hover{
+  cursor: pointer;
+  background-color: #320181;
+  color: white;
+}
+
+.buttonCart2:hover{
+  cursor: pointer;
+  background-color: #320181;
+  color: white;
+}
+
+
+.cartButtondisabled:hover{
+  cursor: not-allowed;
+}
+
+#add{
+  border-radius: 8px;
+  border: 1px solid #320181;
+  transition-duration: 0.4s;
+}
+
+#add:hover{
+  cursor: pointer;
+  background-color: #320181;
+  color: white;
+}
+
+#butCreazione{
+  border-radius: 8px;
+  border: 1px solid #320181;
+  transition-duration: 0.4s;
+}
+
+#butCreazione:hover{
+  cursor: pointer;
+  background-color: #320181;
+  color: white;
+}
+
+#butTermina{
+  border-radius: 8px;
+  border: 1px solid #320181;
+  transition-duration: 0.4s;
+}
+
+#butTermina:hover{
+  cursor: pointer;
+  background-color: #320181;
+  color: white;
+}
+
+.nuovTProva{
+  margin-left: 3%;
+}
+
+#addF{
+  border-radius: 8px;
+  border: 1px solid #320181;
+  transition-duration: 0.4s;
+}
+
+#addF:hover{
+  cursor: pointer;
+  background-color: #320181;
+  color: white;
+}
+
+#addT{
+  border-radius: 8px;
+  border: 1px solid #320181;
+  transition-duration: 0.4s;
+}
+
+#addT:hover{
+  cursor: pointer;
+  background-color: #320181;
+  color: white;
+}
+
+.provaAllinea{
+  float: left;
+}
+.buttonAddTour{
+  float: right;
+}
+
+.chooseSearch {
+  display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+}
+
+
+
+body > div >footer{
+    background-color: #320181;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+  .carousel-control-prev-icon
+  {
+    height: 40%;
+    width: 40%;
+    background-size: 100%;
+    background-image: url("prev.png");
+
+  }
+ 
+  .carousel-control-next-icon {
+    height: 40%;
+    width: 40%;
+    background-size: 100%;
+    background-image: url("next.png");
+  }
+
+  /*#cerca .card-img-top{
+    width: 20%;
+  }*/
+  
+  
+  .ex4 .p1[data-count]:after{
+    position:absolute;
+    right:10%;
+    top:8%;
+    content: attr(data-count);
+    font-size:40%;
+    padding:.2em;
+    border-radius:50%;
+    line-height:1em;
+    color: white;
+    background:rgba(255, 0, 0, 0.85);
+    text-align:center;
+    min-width: 1em;
+    /*font-weight:bold;*/
+  }
+  .ex4 .p1no[data-count]:after{
+    position:absolute;
+    right:10%;
+    top:8%;
+    content: attr(data-count);
+    font-size:40%;
+    padding:.2em;
+    border-radius:50%;
+    line-height:1em;
+    color:rgba(247, 245, 245, 0);
+    background:rgba(247, 245, 245, 0);
+    text-align:center;
+    min-width: 1em;
+    /*font-weight:bold;*/
+  }
+
+  .ex4 .p1{
+    color: white;
+  }
+  .ex4 .p1no{
+    color: white;
+  }
+
+  #radioBtn .notActive{
+    color:#320181;
+    background-color: #fff;
+}
+
+#radioBtn {
+  outline-color: #320181;
+}
+
+#radioBtn .active{
+  color: #fff;
+  background-color: #320181 ;
+}
+
+.vertTour{
+  width: 95%;
+}
+
+.searchML{
+  width: 60%;
+}
+
+.allTicketAcc{
+
+  display: flex;
+  width: 100%;
+}
+
+.ticketAcc{
+  margin-right: 2px;
+  flex: 1;
+padding: 16px;
+}
+
+.storicoBiglietti{
+  background-image: url("images.png");
+background-size: 100% 100%;
+flex: 1;
+padding: 16px;
+}
+
+.allTicket{
+  display: flex;
+  width: 100%;
+}
+
+
+.cookie-banner {
+  position: fixed;
+  bottom: 40px;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  padding: 5px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eee;
+  border-radius: 4px;
+  border: 1px solid#320181;
+  
+  
+}
+.close {
+  height: 20px;
+  border: none;
+
+  border-radius: 2px;
+  cursor: pointer;
+}
